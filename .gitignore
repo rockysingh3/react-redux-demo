@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+start at video 23 but create your own reducer for a object (anything in the store you wanna sell) as practice then start at video 23

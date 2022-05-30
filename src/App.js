@@ -7,6 +7,7 @@ import './App.css';
 import CakeContainer from './components/CakeContainer';
 import HookCakeContainer from "./components/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
+import MongoContainer from "./components/MongoContainer";
 
 
 
@@ -17,7 +18,8 @@ function App() {
       <div className="App">
         <HookCakeContainer />
         <IceCreamContainer />
-        <CakeContainer />
+        {/* <CakeContainer /> */}
+        <MongoContainer />
       </div>
     </Provider>
   )

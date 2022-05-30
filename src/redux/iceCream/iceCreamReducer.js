@@ -8,6 +8,7 @@ const initialState = {
 const iceCreamReducer = (state = initialState, action) => {
         switch(action.type) {
             case BUY_ICECREAM: return {
+                // first add the old state propities to the object and then modifiy them
                 ...state,
                 numIceCream: state.numIceCream - 1
             }

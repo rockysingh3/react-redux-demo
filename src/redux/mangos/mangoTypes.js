@@ -1,0 +1,1 @@
+export const BUY_MONGO = 'BUY_MONGO'
